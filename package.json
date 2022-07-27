@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "@discordjs/rest": "^1.0.0",
+    "@discordjs/voice": "^0.8.0",
+    "@qiwi/bill-payments-node-js-sdk": "^3.2.1",
+    "discord.js": "^13.6.0",
+    "dotenv": "^16.0.1",
+    "fs": "^0.0.1-security",
+    "https-proxy-agent": "^5.0.0",
+    "mongoose": "^6.2.3",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6"
+  },
+  "name": "autogivingstuff",
+  "version": "1.0.0",
+  "main": "proxy.js",
+  "scripts": {
+    "dev": "nodemon script.js",
+    "start": "node --max-old-space-size=8192 script.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
